@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+		<title>LUDO - CSS/JS CODE</title>
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body onload="once()" class="m-5">
+		<div class="container">
+			<!-- LUDO CODE STARTS HERE -->
+			<div class="" id="container">
+				
+				<div class="col-lg-9 col-md-12 col-sm-12">
+					<div class="contbg">
+						<div class="row">
+							<div class="col-1"></div>
+							<div class="col-4 redar mrgtop-60" id="redbox">
+								<div class="container">
+									<div class="row">
+										<div class="col-6">
+											<div class="row redgitti" id="red-1">
+												<img src="assets/img/red.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="1" id="redG1" color="red">
+											</div>
+											<div class="row redgitti" id="red-2">
+												<img src="assets/img/red.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="2" id="redG2" color="red">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="row redgitti" id="red-3">
+												<img src="assets/img/red.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="3" id="redG3" color="red">
+											</div>
+											<div class="row redgitti" id="red-4">
+												<img src="assets/img/red.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="4" id="redG4" color="red">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-2 pathar mrgtop-60 border-btm-1px">
+								<div class="row d-border">
+									<div id="11" name="11" class="col-4 dabba">
+										
+									</div>
+									<div id="12" name="12" class="col-4 dabba">
+										
+									</div>
+									<div id="13" name="13" class="col-4 dabba">
+										
+									</div>
+								</div>
+								<div class="row d-border">
+									<div id="10" name="10" class="col-4 dabba">
+										
+									</div>
+									<div id="green1" name="green1" class="col-4 dabba greenpath">
+										
+									</div>
+									<div id="14" name="14" class="col-4 dabba greenpath green">
+										
+									</div>
+								</div>
+								<div class="row d-border">
+									<div id="9" name="9" class="col-4 dabba greenpath green">
+										
+									</div>
+									<div id="green2" name="green2" class="col-4 dabba greenpath">
+										
+									</div>
+									<div id="15" name="15" class="col-4 dabba">
+										
+									</div>
+								</div>
+								<div class="row d-border">
+									<div id="8" name="8" class="col-4 dabba">
+										
+									</div>
+									<div id="green3" name="green3" class="col-4 dabba greenpath">
+										
+									</div>
+									<div id="16" name="16" class="col-4 dabba">
+										
+									</div>
+								</div>
+								<div class="row d-border">
+									<div id="7" name="7" class="col-4 dabba">
+										
+									</div>
+									<div id="green4" name="green4" class="col-4 dabba greenpath">
+										
+									</div>
+									<div id="17" name="17" class="col-4 dabba">
+										
+									</div>
+								</div>
+								<div class="row d-border">
+									<div id="6" name="6" class="col-4 dabba">
+										
+									</div>
+									<div id="green5" name="green5" class="col-4 dabba greenpath posi-rel opac">
+										
+									</div>
+									<div id="18" name="18" class="col-4 dabba">
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-4 greenar mrgtop-60" id="greenbox">
+								<div class="container">
+									<div class="row">
+										<div class="col-6">
+											<div class="row greengitti" id="green-1">
+												<img src="assets/img/green.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="1" id="greenG1" color="green">
+											</div>
+											<div class="row greengitti" id="green-2">
+												<img src="assets/img/green.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="2" id="greenG2" color="green">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="row greengitti" id="green-3">
+												<img src="assets/img/green.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="3" id="greenG3" color="green">
+											</div>
+											<div class="row greengitti" id="green-4">
+												<img src="assets/img/green.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="4" id="greenG4" color="green">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1 "></div>
+						</div>
+						<div class="row">
+							<div class="col-1 "></div>
+							<div class="col-4 b-lnr-1 cent-area">
+								<div class="row d-border b-top-0">
+									<div id="52" name="52" class="cent-dabba">
+										
+									</div>
+									<div id="1" name="1" class="cent-dabba redpath red">
+										
+									</div>
+									<div id="2" name="2" class="cent-dabba">
+										
+									</div>
+									<div id="3" name="3" class="cent-dabba">
+										
+									</div>
+									<div id="4" name="4" class="cent-dabba">
+										
+									</div>
+									<div id="5" name="5" class="cent-dabba">
+										
+									</div>
+								</div>
+								<div class="row d-border ">
+									<div id="51" name="51" class="cent-dabba">
+										
+									</div>
+									<div id="red1" name="red1" class="cent-dabba redpath">
+										
+									</div>
+									<div id="red2" name="red2" class="cent-dabba redpath">
+										
+									</div>
+									<div id="red3" name="red3" class="cent-dabba redpath">
+										
+									</div>
+									<div id="red4" name="red4" class="cent-dabba redpath">
+										
+									</div>
+									<div id="red5" name="red5" class="cent-dabba redpath posi-rel">
+										
+									</div>
+								</div>
+								<div class="row d-border">
+									<div id="50" name="50" class="cent-dabba">
+										
+									</div>
+									<div id="49" name="49" class="cent-dabba">
+										
+									</div>
+									<div id="48" name="48" class="cent-dabba redpath red">
+										
+									</div>
+									<div id="47" name="47" class="cent-dabba">
+										
+									</div>
+									<div id="46" name="46" class="cent-dabba">
+										
+									</div>
+									<div id="45" name="45" class="cent-dabba">
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-2 centpath">
+									<div class="row homeRows">
+										<div class="col homeCols" id="redHome"></div>
+										<div class="col homeCols" id="greenHome"></div>
+									</div>
+									<div class="row homeRows" style="margin-top: 49%;">
+										<div class="col homeCols" id="blueHome"></div>
+										<div class="col homeCols" id="yellowHome"></div>
+									</div>
+								<div class="homesty"></div>
+							</div>
+							<div class="col-4 b-lnr-1 cent-area">
+								<div class="row d-border b-top-0">
+									<div id="19" name="19" class="cent-dabba">
+										
+									</div>
+									<div id="20" name="20" class="cent-dabba">
+										
+									</div>
+									<div id="21" name="21" class="cent-dabba">
+										
+									</div>
+									<div id="22" name="22" class="cent-dabba yellowpath yellow">
+										
+									</div>
+									<div id="23" name="23" class="cent-dabba">
+										
+									</div>
+									<div id="24" name="24" class="cent-dabba">
+										
+									</div>
+								</div>
+								<div class="row d-border">
+									<div id="yellow5" name="yellow5" class="cent-dabba posi-rel opac yellowpath">
+										
+									</div>
+									<div id="yellow4" name="yellow4" class="cent-dabba yellowpath">
+										
+									</div>
+									<div id="yellow3" name="yellow3" class="cent-dabba yellowpath">
+										
+									</div>
+									<div id="yellow2" name="yellow2" class="cent-dabba yellowpath">
+										
+									</div>
+									<div id="yellow1" name="yellow1" class="cent-dabba yellowpath">
+										
+									</div>
+									<div id="25" name="25" class="cent-dabba">
+										
+									</div>
+								</div>
+								<div class="row d-border">
+									<div id="31" name="31" class="cent-dabba">
+										
+									</div>
+									<div id="30" name="30" class="cent-dabba">
+										
+									</div>
+									<div id="29" name="29" class="cent-dabba">
+										
+									</div>
+									<div id="28" name="28" class="cent-dabba">
+										
+									</div>
+									<div id="27" name="27" class="cent-dabba yellowpath yellow">
+										
+									</div>
+									<div id="26" name="26" class="cent-dabba">
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-1 "></div>
+						</div>
+						<div class="row">
+							<div class="col-1 "></div>
+							<div class="col-4 bluear" id="bluebox">
+								<div class="container">
+									<div class="row">
+										<div class="col-6">
+											<div class="row bluegitti" id="blue-1">
+												<img src="assets/img/blue.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="1" id="blueG1"  color="blue">
+											</div>
+											<div class="row bluegitti" id="blue-2">
+												<img src="assets/img/blue.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="2" id="blueG2"  color="blue">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="row bluegitti" id="blue-3">
+												<img src="assets/img/blue.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="3" id="blueG3"  color="blue">
+											</div>
+											<div class="row bluegitti" id="blue-4">
+												<img src="assets/img/blue.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="4" id="blueG4"  color="blue">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-2 pathar border-btm-1px">
+								<div class="row d-border">
+									<div id="44" name="44" class="col-4 dabba">
+										
+									</div>
+									<div id="blue5" name="blue5" class="col-4 dabba bluepath posi-rel opac">
+										
+									</div>
+									<div id="32" name="32" class="col-4 dabba">
+										
+									</div>
+								</div>
+								<div class="row d-border">
+									<div id="43" name="43" class="col-4 dabba">
+										
+									</div>
+									<div id="blue4" name="blue4" class="col-4 dabba bluepath">
+										
+									</div>
+									<div id="33" name="33" class="col-4 dabba">
+										
+									</div>
+								</div>
+								<div class="row d-border">
+									<div id="42" name="42" class="col-4 dabba">
+										
+									</div>
+									<div id="blue3" name="blue3" class="col-4 dabba bluepath">
+										
+									</div>
+									<div id="34" name="34" class="col-4 dabba">
+										
+									</div>
+								</div>
+								<div class="row d-border">
+									<div id="41" name="41" class="col-4 dabba">
+										
+									</div>
+									<div id="blue2" name="blue2" class="col-4 dabba bluepath">
+										
+									</div>
+									<div id="35" name="35" class="col-4 dabba bluepath blue">
+										
+									</div>
+								</div>
+								<div class="row d-border">
+									<div id="40" name="40" class="col-4 dabba bluepath blue">
+										
+									</div>
+									<div id="blue1" name="blue1" class="col-4 dabba bluepath">
+										
+									</div>
+									<div id="36" name="36" class="col-4 dabba">
+										
+									</div>
+								</div>
+								<div class="row d-border">
+									<div id="39" name="39" class="col-4 dabba">
+										
+									</div>
+									<div id="38" name="38" class="col-4 dabba">
+										
+									</div>
+									<div id="37" name="37" class="col-4 dabba">
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-4 yellowar" id="yellowbox">
+								<div class="container">
+									<div class="row">
+										<div class="col-6">
+											<div class="row yellowgitti" id="yellow-1">
+												<img src="assets/img/yellow.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="1" id="yellowG1" color="yellow">
+											</div>
+											<div class="row yellowgitti" id="yellow-2">
+												<img src="assets/img/yellow.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="2" id="yellowG2" color="yellow">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="row yellowgitti" id="yellow-3">
+												<img src="assets/img/yellow.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="3" id="yellowG3" color="yellow">
+											</div>
+											<div class="row yellowgitti" id="yellow-4">
+												<img src="assets/img/yellow.png" class="gitti" onclick="Move(this)" totalMoved="1" Unique="4" id="yellowG4" color="yellow">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+				<!-- LUDO CODE COMPLETED -->
+				<!-- RIGHT AREA CODE HERE -->
+
+
+
+				<div class="padrl-0">
+					<div class="rightar">
+						<div class="container mrgtop-20 mrgrgt-40">
+							<div id="plr" class="d-none dis-in"></div>
+							<div class="row"><div class="col">
+							<div class="mrgtop-30">
+								<div class="col">
+									<input type="button" onclick="rollBtn()" class="rollbtn input-sub btn-outline-primary" name="ROLL" value="ROLL" data-cp="red" id="ROLL" disabled="">
+								</div>
+							</div>
+							<div class="d-flex">
+								<img src="assets/img/d-1.png" id="dice" name="dice" class="dice-img">
+							</div></div><div>
+							<div class="row m-auto" id="new">
+								
+							</div>
+							</div>
+							
+							<div id="plr1" class="dis-none"></div></div></div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="padrl-0">
+					<div class="rightar">
+						<div class="container mrgtop-20 mrgrgt-40">
+							
+							<div>
+							<div class="row mrgtop-40">
+								<div class="col">
+									<input type="button" onclick="rollBtn()" class="rollbtn input-sub btn-outline-primary" name="ROLL" value="ROLL" data-cp="red" id="ROLL1" disabled="">
+								</div>
+							</div>
+							<div class="row">
+								<img src="assets/img/d-1.png" id="dice1" name="dice1" class="dice-img">
+							</div>
+							<div class="row" id="new1">
+							</div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+			</div> 	
+				
+		</div>
+		<div class="" id="result"></div>
+		<audio controls="" id="music" class="d-none">
+			<!-- <source src="assets/audio/tui.mp3" type="audio/mpeg"> -->
+		</audio>
+		<div id="result"></div>
+	</body>
+</html>
+<script type="text/javascript" src="assets/js/myScript.js"></script>
+
+<!-- All code written from scratch by Mukund Dev Arya and Shruti Pareek -->

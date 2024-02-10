@@ -1,0 +1,525 @@
+/*---------------------------PLAYER SET CSS-----------------------------*/
+
+body {
+    background: #000522 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    font-family: arial;
+    font-weight: bold;
+}
+* { box-sizing:border-box; }
+.inher {
+	position: inherit;
+	height: inherit;
+}
+.clr-white {
+	color :#ddd;
+}
+.cred {
+    right: 13%;
+    bottom: 0px;
+    margin: -5px;
+    text-align: end;
+}
+@media (min-width: 992px) {
+    .cred-lg {
+        display: flex;
+    }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+@media only screen 
+and (min-device-width : 568px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */    .cred-lg {
+        display: flex;
+    }
+}
+
+@media only screen 
+and (min-device-width : 568px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */    .cred-lg {
+        display: flex;
+    }
+}
+
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+.mid {
+    text-align: center;
+    vertical-align: middle;
+}
+.cont {
+    position: absolute;
+    background-image: url("../img/back.png");
+    background-size: cover;
+    height: 85%;
+    border: 1px solid #ccc;
+    background-color: #172e43;
+    box-shadow: 0px 0px 15px #045666;
+}
+.m-box {
+    border: 2px solid;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 2px;
+}
+.mrl-7 {
+    margin-right: 7px !important;
+    margin-left: 7px !important;
+}
+.sty-box .ps .ps2 .rNy-box .gNb-box .colourSetBox {
+    border: 1px solid grey;
+    margin: auto;
+    padding: 5px;
+}
+.sty-box .rNy-box .gNb-box .colourSetBox {
+    border-radius: 1px;
+    z-index: 2;
+}
+.ps {
+    /*background-color: #c9ffc4;*/
+    border-radius: 10px;
+}
+.ps2 {
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: inset 355px 0px 20px 0px #fdff00;
+    z-index: 2;
+}
+.sty-box {
+    background-color: #5366ba52;
+    color: beige;
+}
+.rNy-box {
+    background: repeating-linear-gradient(90deg, red, red, yellow, yellow);
+}
+.gNb-box {
+    background: repeating-linear-gradient(90deg, lime, lime, #0021ff, #0021ff);
+}
+.rgb-box {
+    background-image: linear-gradient(90deg, red, red, #ff00006b, lime, lime, #0100ff66, #0021ff, #0021ff);
+}
+.rgy-box {
+    background-image: linear-gradient(90deg, red, red, yellow, yellow, yellow, lime, lime);
+}
+.ryb-box {
+    background-image: linear-gradient(90deg, red, red, red, yellow, yellow, yellow, yellow, #b5ff0285, #0021ff, #0021ff, #0021ff);
+}
+.container {
+    font-family: revert;
+}
+.ygb-box {
+    background-image: linear-gradient(90deg, lime, lime, lime, yellow, yellow, yellow, yellow, #b5ff0285, #0021ff, #0021ff, #0021ff);
+}
+.r-box .b-box .g-box .y-box .alg-cent .algNB .name-box {
+    text-align: center;
+}
+.r-box .b-box .g-box .y-box {
+    border-radius: 7px;
+}
+.r-box {
+    background: radial-gradient(#ff6b6b, red);
+    font-weight: 600;
+}
+.g-box {
+    background: radial-gradient(#73ff73, green);
+    font-weight: 600;
+}
+.b-box {
+    background: radial-gradient(#00ffff, blue);
+    font-weight: 600;
+}
+.y-box {
+    background: radial-gradient(#ffff95, #ffff00);
+    font-weight: 600;
+}
+.alg-cent {
+    background: transparent;
+}
+.algNb {
+    background: #ff48484a;
+}
+.name-box {
+    background: #ff48484a;
+    height: 25px;
+}
+input {
+    margin: auto;
+    overflow: auto !important;
+}
+input.input-sub {
+    overflow: visible !important;
+}
+@media (min-width: 992px) {
+    .col-lg-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+    .dis-none {
+        display: none !important;
+    }
+    .dis-in {
+        display: inherit !important;
+    }
+}
+@media (min-width: 1200px) {
+    .col-xl-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mar-5 {
+    margin: 5px !important;
+}
+.m-0 {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+label {
+    margin-bottom: 0px !important;
+    height: fit-content !important;
+}
+.dis-div {
+    border: 2px solid;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.b-pad {
+    padding-right: 14px !important;
+    padding-left: 5px !important;
+}
+.cl-blue {
+    background: #09a4ff !important;
+}
+.cl-green {
+    background: lime !important;
+}
+.cl-yellow {
+    background: yellow !important;
+}
+.cl-red {
+    background: red !important;
+}
+.rgby-box {
+    border-radius: 0% !important;
+    height: 1px;
+}
+.btn-c {
+    font-size: 34px !important;
+    font-weight: 800 !important;
+}
+.w-100 {
+    color: black !important;
+}
+.red .blue .green .yellow {
+    width: 100%;
+    font-weight: bold;
+    font-size: 365%;
+    line-height: 125%;
+    padding: 0px;
+}
+.red {
+    background-color: #ffadad;
+    color: darkred;
+}
+.blue {
+    background-color: #76afff;
+    color: darkblue;
+}
+.green {
+    background-color: #68ff68;
+    color: darkgreen;
+}
+.yellow {
+    background-color: yellow;
+    color: #848400;
+}
+/*-------------------------------LUDO CSS------------------------------*/
+
+.contbg {
+    background-color: #fedeff;
+    height: 620px;
+    width: 620px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 5px grey;
+    margin-right: 10px;
+    border: 1px solid #847575;
+}
+.mrgtop-60 {
+    margin-top: 60px;
+}
+.redar .bluear .greenar .yellowar {
+    height: 195px;
+    width: 195px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px grey;
+}
+.redar {
+    background-color: #ff2626;
+    border-top-left-radius: 20px;
+}
+.redgitti {
+    background-color: #ffa5a5;
+    border-radius: 50%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.yellowar {
+    background-color: yellow;
+    border-bottom-right-radius: 20px;
+}
+.yellowgitti {
+    background-color: #b5b50c;
+    border-radius: 50%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.greenar {
+    background-color: #00c515;
+    border-top-right-radius: 20px;
+}
+.greengitti {
+    background-color: #6cff7b;
+    border-radius: 50%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.bluear {
+    background-color: #0059d4;
+    border-bottom-left-radius: 20px;
+}
+.bluegitti {
+    background-color: #91bfff;
+    border-radius: 50%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.gitti {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.dabba .d-img {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.g-shad {
+    box-shadow: 3px 3px 5px #00000066;
+}
+.homeRows {
+    height: 49%;
+    position: absolute;
+    width: 100%;
+}
+.homeCols {
+    padding: 0px;
+    height: 100%;
+}
+.homesty {
+    background-color: #ffa500;
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    align-self: center;
+    margin: auto;
+    margin-top: -23px;
+    margin-left: -37px;
+    z-index: 2;
+    opacity: 65%;
+}
+.centpath {
+    height: 105px;
+    z-index: 1;
+}
+.dabba {
+    height: 32.333333px;
+    border-top: 1px solid #0095ff;
+    padding: 0px;
+    position: relative;
+}
+.cent-dabba {
+    height: 35px;
+    width: 16.666666%;
+    border-top: 1px solid #0095ff;
+    position: relative;
+}
+.d-img {
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+    position: absolute;
+}
+.h-img {
+    margin: auto;
+    height: 26px;
+    width: 26px;
+}
+.redpath {
+    background-color: #ff4444;
+}
+.greenpath {
+    background-color: #17e817;
+}
+.yellowpath {
+    background-color: #e9e900;
+}
+.bluepath {
+    background-color: #388ded;
+}
+.activePlayer {
+    border: 5px solid;
+}
+/*.opac {
+	opacity: 50%
+}*/
+
+.z-0 {
+    z-index: 0;
+}
+.z-1 {
+    z-index: 1;
+}
+.z-2 {
+    z-index: 2;
+}
+.posi-rel {
+    position: relative;
+}
+.border-btm-1px {
+    border-bottom: 1px solid #0095ff;
+}
+.pathar {
+    background-color: #f0ffb3;
+}
+.pathar div:nth(5) {
+    border-bottom: 1px solid #0095ff;
+}
+.cent-area {
+    background-color: #f0ffb3;
+}
+.d-border div:nth-of-type(even) {
+    border-right: 1px solid #0095ff;
+    border-left: 1px solid #0095ff;
+}
+.b-top-0 div {
+    border-top: 0px;
+}
+.b-lnr-1 {
+    border-left: 1px solid #0095ff;
+}
+/*---------------- RIGHT AREA CSS----------------------*/
+
+.padrl-0 {
+    padding: 0px;
+}
+.rightar {
+    /*background: linear-gradient(-60deg, #00c4ff,#06638a, #002544, #000315);*/
+    /*background: linear-gradient(-60deg, #005cff, #005aa5, #002a5f, #020939, #010627, #000315);*/
+    background: linear-gradient(-60deg, #00c4ff, #0589b7, #03567b, #002544, #000518, #000315);
+    height: 94.33333%;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #847575;
+    box-shadow: 6px 6px 5px grey;
+}
+.plr-name {
+    font-size: 35px;
+    margin-left: 30px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    padding-right: 12px;
+    padding-left: 5px;
+}
+.red-plr-name {
+    color: #f00;
+}
+.green-plr-name {
+    color: lime;
+}
+.yellow-plr-name {
+    color: #ffff00;
+}
+.blue-plr-name {
+    color: #00c4ff;
+}
+.mrgtop-20 {
+    margin-top: 20px;
+}
+.mrgtop-30 {
+    margin-top: 30px;
+}
+.mrgrgt-40 {
+    margin-right: 40px;
+}
+.rollbtn {
+    width: 100%;
+    font-weight: bold;
+    font-size: 365%;
+    line-height: 125%;
+    color: darkred;
+    background-color: #ffadad;
+    padding: 0px;
+}
+.dice-img {
+    width: 155px;
+    margin: auto;
+}
+.newBtn {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+.btn-outline-light:focus {
+    box-shadow: 0 0 0 0.2rem rgb(248 249 250) !important;
+}
+.visited {
+    box-shadow: 0 0 0 0.2rem rgb(248 249 250);
+}
+.bdarkerg-{
+    background: #00000030;
+}

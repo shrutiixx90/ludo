@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>	
+			Set Player Page - CSS/JS Code
+		</title>
+		<script type="text/javascript" src="assets/js/playerSet.js"></script>
+	    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	</head>
+	<body onload="enableDiv()">
+		<div class="col-sm-9 col-md-10 col-lg-11 col-10 cont">
+			<!-- <div class="row">
+				
+			</div> -->
+			<div class="row inher">
+                <div class="col-md-10 offset-1 m-auto" onclick="everyClick()">
+                	<div class="row">
+	                	<div class="col-11 dis-md-none col-md-7 col-lg-5 col-sm-10">
+							<img class="w-100" src="assets/img/main.png">
+					    </div>
+					</div>
+                            <form action="game.html" method="post" name="playerSet" class="ps">
+                            	<div class="m-box">
+                            		<div class="row mrl-7">
+	                            		<div class="col sty-box">
+	                            			<div class="row">
+	                            				<label for="ps2" class="col">2 Players</label>
+	                            				<input type="radio" name="playerSet" required onclick="enableDiv()" id="ps2" value="ps2" class="mr-10 form-control-sm">
+	                            			</div>
+	                            		</div>
+	                            		<div class="col sty-box mrl-7">
+	                            			<div class="row">
+	                            				<label for="ps3" class="col">3 Players</label>
+	                            				<input type="radio" name="playerSet" required onclick="enableDiv()" id="ps3" value="ps3" class="mr-10 form-control-sm">
+	                            			</div>
+	                            		</div>
+	                            		<div class="col sty-box">
+	                            			<div class="row">
+	                            				<label for="ps4" class="col">4 Players</label>
+	                            				<input type="radio" name="playerSet" required onclick="enableDiv()" id="ps4" value="ps4" class="mr-10 form-control-sm" checked="true">
+	                            			</div>
+	                            		</div>
+	                            	</div>
+                            	</div>
+                            	<div class="form-group dis-none dis-div" id="id2">
+                            		<div class="row m-0"><div class="m-auto clr-white">Choose Colour sets, Enter Names of the players and start the game</div></div>
+                            		<div class="row m-0">
+	                            		<label for="1p2" class="col rNy-box mar-5">
+	                            			<label for="1p2" class="row" id="dflt1">
+	                            				<input type="text" id="2plr1" name="2plr1" value="Player 1_" class="alg-cent col p-0" placeholder="Red">
+	                            				<input type="radio" name="Set2" onclick="sbe(this)" id="1p2" value="rNy" class="m-auto form-control-sm" checked>
+	                            				<input type="text" id="2plr2" name="2plr2" value="Player 2_" class="alg-cent col p-0" placeholder="Yellow">
+	                            			</label>
+	                            		</label>
+	                            		<label for="2p2" class="col gNb-box mar-5">
+	                            			<label for="2p2" class="row" id="dflt2">
+	                            				<input type="text" id="plr1" name="plr1" value="Player 1_" class="alg-cent col p-0" placeholder="Green">
+	                            				<input type="radio" name="Set2" onclick="sbe(this)" id="2p2" value="gNb" class="m-auto form-control-sm">
+	                            				<input type="text" id="plr2" name="plr2" value="Player 2_" class="alg-cent col p-0" placeholder="Blue">
+	                            			</label>
+	                            		</label>
+	                            	</div>
+	                            	<div class="row m-0 dis-none">
+	                            		<div class="col"><input type="button" name="" class="rNy-box mar-5 w-100" value="Red Yellow"></div>
+	                            		<div class="col"><input type="button" name="" class="gNb-box mar-5 w-100" value="Green Blue"></div>
+	                            	</div>
+                            	</div>
+
+                            	<div class="form-group dis-none dis-div" id="id3">
+                            		<div class="row m-0"><div class="m-auto clr-white">Choose a Colour set to start the game</div></div>
+                            		
+                            		<div class="row m-0">
+	                            		<label for="set1" class="col mr-10 p-0" onclick="ps3(this)"><div class="p-0 colourSetBox row mar-5 w-100"><div class="btn rgby-box col cl-red"></div><div class="btn rgby-box col cl-green"></div><div class="btn rgby-box col cl-blue"></div></div> <input type="radio" class="dis-none" id="set1" name="set3"  value="set1"></label>
+	                            		<label for="set2" class="col mr-10 p-0" onclick="ps3(this)"><div class="p-0 colourSetBox row mar-5 w-100"><div class="btn rgby-box col cl-red"></div><div class="btn rgby-box col cl-yellow"></div><div class="btn rgby-box col cl-blue"></div></div> <input type="radio" class="dis-none" id="set2" name="set3"  value="set2"></label>
+	                            		<label for="set3" class="col mr-10 p-0" onclick="ps3(this)"><div class="p-0 colourSetBox row mar-5 w-100"><div class="btn rgby-box col cl-red"></div><div class="btn rgby-box col cl-green"></div><div class="btn rgby-box col cl-yellow"></div></div> <input type="radio" class="dis-none" id="set3" name="set3"  value="set3"></label>
+	                            		<label for="set4" class="col mr-10 p-0" onclick="ps3(this)"><div class="p-0 colourSetBox row mar-5 w-100"><div class="btn rgby-box col cl-green"></div><div class="btn rgby-box col cl-yellow"></div><div class="btn rgby-box col cl-blue"></div></div> <input type="radio" class="dis-none" id="set4" name="set3"  value="set4"></label>
+	                            	</div>
+		                            <div id="3box" class="dis-none">
+	                            		<div class="row m-0"><div class="m-auto clr-white">Enter Names of the players and start the game</div></div>
+	                            		<div class="row m-0">
+		                            		<div class="col"><input type="text" id="3player1" name="3player1" class="name-box c-light mar-5 w-100" value="Player 1_"></div>
+		                            		<div class="col"><input type="text" id="3player2" name="3player2" class="name-box c-light mar-5 w-100" value="Player 2_"></div>
+		                            		<div class="col"><input type="text" id="3player3" name="3player3" class="name-box c-light mar-5 w-100" value="Player 3_"></div>
+		                            	</div>
+		                            </div>
+                            	</div>
+                            	<div class="form-group dis-div" id="id4">
+                            		<div class="row m-0"><div class="m-auto clr-white">Enter Names of the players and start the game</div></div>
+                            		<div class="row m-0">
+	                            		<div class="col mr-10 p-0"><input type="text" name="player1" id="Player1" class="r-box text-center mar-5 w-100" value="Player 1_"></div>
+	                            		<div class="col mr-10 p-0"><input type="text" name="player2" id="Player2" class="g-box text-center mar-5 w-100" value="Player 2_"></div>
+	                            	</div>
+	                            	<div class="row m-0">
+	                            		<div class="col mr-10 p-0"><input type="text" name="player4" id="Player4" class="b-box text-center mar-5 w-100" value="Player 4_"></div>
+	                            		<div class="col mr-10 p-0"><input type="text" name="player3" id="Player3" class="y-box text-center mar-5 w-100" value="Player 3_"></div>
+	                            	</div>
+                            	</div>
+                                <input class="btn btn-c btn-danger btn-outline-light form-control" id="Submit" name="Submit" type="submit" value="Start"> 
+                            </form>
+            	</div>
+                </div>
+        </div>
+
+					    <div class="align-self-end col lead text-light position-fixed">
+					    	<div class="cred position-absolute cred-lg column1">
+								<div>Created from scratch&nbsp</div>
+								<div>By Mukund Arya and Shruti Pareek</div>
+					    	</div>
+					    </div>
+	</body>
+</html>
+<!-- R - Mukund Dev Arya 
+All the code originally written from scratch by Mukund Dev Arya and Shruti Pareek
+-->
